@@ -2,8 +2,7 @@ pages:
   stage: deploy
   image: netlify/build
   script:
-    - bundle install
-    - bundle exec jekyll build -d public
+    - ./run-build.sh
   artifacts:
     paths:
     - public
