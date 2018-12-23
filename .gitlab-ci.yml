@@ -2,7 +2,7 @@ pages:
   stage: deploy
   image: netlify/build
   script:
-    - ./run-build.sh
+    - build jekyll build -d public
   artifacts:
     paths:
     - public
