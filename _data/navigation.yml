@@ -1,0 +1,21 @@
+main:
+    - title: "制作物"
+      url: /projects
+    - title: "プロジェクト概要"
+      url: /about
+    - title: "入部案内"
+      url: /recruit
+
+home:
+  - title: "Archive"
+    children:
+      - title: "投稿一覧 (年度別)"
+        url: /year-archive
+      - title: "投稿一覧 (カテゴリ別)"
+        url: /categories
+  - title: "Link"
+    children:
+      - title: "鈴鹿高専HP"
+        url: "http://www.suzuka-ct.ac.jp/"
+      - title: "高専ロボコンHP"
+        url: "http://www.official-robocon.com/kosen/"
