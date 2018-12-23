@@ -1,8 +1,8 @@
 pages:
   stage: deploy
   script:
-  - bundle install 
-  - jekyll build -d public/ 
+  - bundle install
+  - bundle exec jekyll build -d public/ 
   artifacts:
     paths:
     - public
